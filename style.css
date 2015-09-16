@@ -1,0 +1,140 @@
+body{
+  font-family: Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  color:#333;
+}
+
+p{
+  margin: 0;
+}
+
+.clearfix{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+a:hover{
+  opacity: 0.7;
+}
+
+header{
+
+}
+
+.navbar{
+  color: #fff;
+}
+
+main{
+
+}
+
+.top_image{
+
+}
+
+.logo{
+  float: left;
+}
+
+.info{
+  float: right;
+}
+
+.info li{
+  list-style-type: none;
+  float: left;
+  margin-left: 20px;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.info a{
+  color: #fff;
+}
+
+/*コンテンツ*/
+.content1{
+  margin-top: 20px;
+}
+
+h2{
+  border-left: solid 8px #DE5C24;
+  border-bottom: solid 1px #DE5C24;
+  padding: 0 0 8px 25px;
+}
+
+
+/*スライド*/
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+
+.slide{
+  margin-top: 30px;
+}
+
+#slider-thumbs{
+  margin-top: 15px;
+}
+
+/*基本情報*/
+
+.table{
+  border-bottom: solid 1px #ccc;
+  border-right: solid 1px #ccc;
+}
+
+
+/*サイドバー*/
+.sidebar h3{
+  border-left: solid 8px #DE5C24;
+  border-bottom: solid 1px #DE5C24;
+  margin-left: 30px;
+  padding: 0 0 8px 25px;
+}
+.sidebar li{
+  list-style-type: none;
+  margin: 5px 0;
+}
+
+.sidebar img{
+  width: 100%;
+}
+
+.sidebar p{
+  text-align: center;
+}
+
+/*フッター*/
+footer{
+  background-color: #333;
+  padding: 30px 0;
+}
+
+footer p{
+  text-align: center;
+  color: #fff;
+}
+
+
+/*メディアクエリ*/
+
+@media screen and (max-width: 768px){
+  .sidebar img{
+    width: 50%;
+  }
+}
+
+
+
